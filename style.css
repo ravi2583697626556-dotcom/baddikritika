@@ -836,6 +836,34 @@
       text-transform: uppercase;
       text-shadow: 0 0 20px rgba(255, 0, 110, 0.8);
     }
+    #enter-btn {
+      margin-top: 2rem;
+      background: transparent;
+      color: var(--yellow);
+      border: 3px solid var(--yellow);
+      padding: 0.8rem 2.5rem;
+      font-family: 'Anton', sans-serif;
+      font-size: 1.5rem;
+      letter-spacing: 2px;
+      cursor: pointer;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.8s ease, visibility 0.8s ease, background 0.3s, color 0.3s;
+      animation: pulseBtn 1.5s infinite alternate;
+    }
+    #enter-btn:hover {
+      background: var(--yellow);
+      color: var(--ink);
+    }
+    #enter-btn.ready {
+      opacity: 1;
+      visibility: visible;
+    }
+    @keyframes pulseBtn {
+      from { transform: scale(1); }
+      to { transform: scale(1.05); }
+    }
+
     body.loaded #loader {
       opacity: 0;
       visibility: hidden;
