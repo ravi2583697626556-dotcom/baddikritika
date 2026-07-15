@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KRITIKA — DIY Zine</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Anton&family=Caveat:wght@600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- ══════════════════════════════
+     LOADER
+  ══════════════════════════════ -->
+  <div id="loader">
+    <div class="loader-content">
+      <svg width="150" height="100" viewBox="0 0 150 100" xmlns="http://www.w3.org/2000/svg" style="margin-bottom: 1rem;">
+        <path d="M 15 80 L 15 30 L 45 60 L 75 10 L 105 60 L 135 30 L 135 80 Z" fill="none" stroke="var(--yellow)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+          <animate attributeName="stroke-dasharray" from="0 500" to="500 0" dur="2.2s" fill="freeze" />
+        </path>
+      </svg>
+      <h2 class="loader-text">INTRODUCING BADDIE...</h2>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════
+     HERO — ZINE COVER
+══════════════════════════════ -->
+  <section class="hero">
+
+    <!-- sticker cluster -->
+    <div class="sticker-cluster">
+      <span class="sticker" style="--r:4deg">👽 LAADLEE</span>
+      <span class="sticker" style="--r:-3deg">💃 MASTIKHOR</span>
+      <span class="sticker" style="--r:2deg">💅🏻 ICONIC</span>
+      <span class="sticker" style="--r:-4deg">⚡ REAL ONE</span>
+    </div>
+
+    <div class="hero-inner">
+      <div class="hero-text">
+        <p class="zine-issue">Vol. 01 &nbsp;·&nbsp; The Baddie Issue &nbsp;·&nbsp; Limited Edition</p>
+
+        <!-- Animated SVG underline drawn in -->
+        <h1 class="hero-name">
+          <span class="hl">KRI</span>TIKA
+        </h1>
+
+        <!-- scribble underline -->
+        <svg class="scribble" width="min(600px,90%)" height="18" viewBox="0 0 600 18" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <path d="M4,14 Q60,4 120,12 Q180,20 240,10 Q300,0 360,12 Q420,22 480,10 Q540,2 596,12" stroke="#FF006E"
+            stroke-width="3" stroke-linecap="round" fill="none">
+            <animate attributeName="stroke-dasharray" from="0 1000" to="1000 0" dur="1.2s" fill="freeze" begin="0.2s" />
+          </path>
+        </svg>
+
+        <div class="hero-sub">
+          <span class="hero-stamp">REAL BADDIE</span>
+          <span class="hero-hand">maikeyaaaa laadleeeee 👽</span>
+        </div>
+
+        <!-- small SVG arrow pointing right -->
+        <svg width="100" height="24" viewBox="0 0 100 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+          style="margin-top:2rem;opacity:.35;">
+          <line x1="0" y1="12" x2="88" y2="12" stroke="#0F0F0F" stroke-width="2" />
+          <polyline points="76,4 92,12 76,20" stroke="#0F0F0F" stroke-width="2" fill="none" />
+          <text x="0" y="24" font-family="Space Mono" font-size="8" fill="#0F0F0F" letter-spacing="3">SCROLL</text>
+        </svg>
+      </div>
+      <div class="hero-img-wrap">
+        <img src="img__2_.jpeg" alt="Hero Baddie" />
+      </div>
+    </div>
+
+    <!-- bottom footnote -->
+    <div class="hero-footnote">
+      ← she is the storm nobody warned you about<br>
+      → handle with care (or don't, ur loss)
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════
+     PINK TICKER STRIP
+══════════════════════════════ -->
+  <div class="strip">
+    <div class="strip-track">
+      <span>★ KRITIKA</span><span>REAL BADDIE</span><span>💃 MASTIKHOR QUEEN</span>
+      <span>👑 MAIKEYAAAA</span><span>MULTIPLE PERSONALITY</span><span>💅 DANGEROUS</span>
+      <span>★ KRITIKA</span><span>REAL BADDIE</span><span>💃 MASTIKHOR QUEEN</span>
+      <span>👑 MAIKEYAAAA</span><span>MULTIPLE PERSONALITY</span><span>💅 DANGEROUS</span>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════
+     SCRAPBOOK COLLAGE
+══════════════════════════════ -->
+  <section class="collage">
+    <h2 class="zine-heading">Her <em>Photos</em> Tho —</h2>
+
+    <div class="scrap-grid">
+      <!-- photo 1 -->
+      <div class="scrap-photo sp1">
+        <!-- yellow tape SVG -->
+        <svg class="tape" width="70" height="22" viewBox="0 0 70 22" xmlns="http://www.w3.org/2000/svg">
+          <rect width="70" height="22" rx="2" fill="#FFE500" opacity="0.85" />
+          <rect width="70" height="22" rx="2" fill="none" stroke="rgba(0,0,0,.1)" stroke-width="1" />
+        </svg>
+        <img src="imgg.jpg" alt="Kritika black outfit" />
+        <p class="scrap-caption">black era 🖤</p>
+      </div>
+
+      <!-- photo 2 -->
+      <div class="scrap-photo sp2">
+        <svg class="tape" width="70" height="22" viewBox="0 0 70 22" xmlns="http://www.w3.org/2000/svg">
+          <rect width="70" height="22" rx="2" fill="#FF006E" opacity="0.7" />
+        </svg>
+        <img src="img__2_.jpeg" alt="Kritika purple saree" />
+        <svg class="photo-word" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
+          <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="'Anton', sans-serif" font-size="50" fill="none" stroke="#FFE500" stroke-width="2">
+            BADDIE
+            <animate attributeName="stroke-dasharray" from="0 400" to="400 0" dur="2.5s" fill="freeze" />
+          </text>
+        </svg>
+        <p class="scrap-caption">purple szn 💜</p>
+      </div>
+
+      <!-- photo 3 -->
+      <div class="scrap-photo sp3">
+        <svg class="tape" width="70" height="22" viewBox="0 0 70 22" xmlns="http://www.w3.org/2000/svg">
+          <rect width="70" height="22" rx="2" fill="#0047FF" opacity="0.6" />
+        </svg>
+        <img src="img__1_.jpeg" alt="Kritika chilling" />
+        <p class="scrap-caption">unbothered 💚</p>
+      </div>
+    </div>
+
+    <!-- hand annotation below -->
+    <p class="col-note">↑ she didn't come to play. she came to be iconic &amp; go home. ↑</p>
+  </section>
+
+  <!-- ══════════════════════════════
+     QUOTE CUT-OUTS
+══════════════════════════════ -->
+  <section class="cutouts">
+    <h2 class="zine-heading" style="margin-bottom:0">Her <em>Words</em> —</h2>
+
+    <div class="cutouts-inner">
+
+      <div class="cut-row">
+        <div class="cut-num">01</div>
+        <div class="cut-text">
+          <p class="qt">MAIKEYAAAA LAADLEEEEE</p>
+          <p class="attr">→ her frequency. her default. her brand.</p>
+        </div>
+        <div class="cut-icon">👽</div>
+      </div>
+
+      <div class="cut-row">
+        <div class="cut-num">02</div>
+        <div class="cut-text">
+          <p class="qt">MASTIKHOR LOGON SE KHUD KE RISK PE BAAT KIJIYE!</p>
+          <p class="attr">→ official advisory. ye warning sirf ek baar milti hai.</p>
+        </div>
+        <div class="cut-icon">💃</div>
+      </div>
+
+      <div class="cut-row">
+        <div class="cut-num">03</div>
+        <div class="cut-text">
+          <p class="qt">MULTIPLE PERSONALITY DISORDER!!!</p>
+          <p class="attr">→ pick a version. all of them are unhinged. all of them are perfect.</p>
+        </div>
+        <div class="cut-icon">🌀</div>
+      </div>
+
+      <div class="cut-row">
+        <div class="cut-num">04</div>
+        <div class="cut-text">
+          <p class="qt">"LATIYAA KE MAARAB AADMI JAAT KO"</p>
+          <p class="attr">→ she said it with a smile. most dangerous kind. 💅🏻</p>
+        </div>
+        <div class="cut-icon">⚡</div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════
+     NAME SIGN FEATURE
+══════════════════════════════ -->
+  <section class="sign-feat">
+    <div class="sign-feat-inner">
+      <img src="img__1_.jpg" alt="Kritika hand-painted name sign" />
+      <div class="sign-feat-text">
+        <h2>SHE PAINTED<br>HER OWN<br>NAME.</h2>
+        <p>
+          Gold letters. Red background. White swirls.
+          Because she doesn't wait for the world to spell her out —
+          she does it herself, by hand, in acrylic,
+          with zero apologies.
+        </p>
+        <span class="hand-note">that's the most Kritika thing ever 👑</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════
+     REVERSE BLACK TICKER
+══════════════════════════════ -->
+  <div class="strip2">
+    <div class="strip2-track">
+      <span>✦ real baddie</span><span>⭐ laadlee of the universe</span>
+      <span>💛 maikeyaaaa</span><span>🖤 mastikhor queen</span>
+      <span>✦ kritika era</span><span>💥 multiple personality, all iconic</span>
+      <span>✦ real baddie</span><span>⭐ laadlee of the universe</span>
+      <span>💛 maikeyaaaa</span><span>🖤 mastikhor queen</span>
+      <span>✦ kritika era</span><span>💥 multiple personality, all iconic</span>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════
+     OUTRO
+══════════════════════════════ -->
+  <div class="outro">
+    <!-- spinning star background -->
+    <svg class="outro-svg" width="260" height="260" viewBox="0 0 260 260" xmlns="http://www.w3.org/2000/svg">
+      <polygon points="130,10 156,90 240,90 173,140 196,220 130,170 64,220 87,140 20,90 104,90" fill="#FFE500" />
+    </svg>
+
+    <div class="outro-name">
+      <span class="o-pink">K</span>RI<span class="o-yellow">T</span>IKA
+    </div>
+    <p class="outro-sub">the baddie · the chaos · the legend · the one and only</p>
+
+    <!-- small hand-drawn heart SVG -->
+    <svg width="60" height="56" viewBox="0 0 60 56" fill="none" xmlns="http://www.w3.org/2000/svg"
+      style="margin-top:2.5rem;position:relative;z-index:1;">
+      <path
+        d="M30,50 C30,50 6,32 6,18 C6,10 12,4 20,6 C25,7 29,11 30,14 C31,11 35,7 40,6 C48,4 54,10 54,18 C54,32 30,50 30,50Z"
+        fill="none" stroke="#FF006E" stroke-width="2">
+        <animate attributeName="stroke-dasharray" from="0 200" to="200 0" dur="1.5s" fill="freeze" />
+      </path>
+    </svg>
+  </div>
+
+  <footer>
+    KRITIKA™ ZINE — VOL. 01 — ALL PERSONALITIES RESERVED — EST. WHENEVER SHE DECIDED
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
